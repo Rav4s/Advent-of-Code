@@ -53,10 +53,6 @@ def find_valids(strings, pos1, pos2, letters):
         string = strings[j]
         low_pos = pos1[j] - 1
         high_pos = pos2[j] - 1
-        #print(string)
-        #print([letters[j]])
-        #print(string[low_pos])
-        #print(string[high_pos])
         if string[low_pos] != string[high_pos]:
             if string[low_pos] == letters[j]:
                 valids.append("Valid")
