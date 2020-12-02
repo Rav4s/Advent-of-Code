@@ -29,7 +29,6 @@ def add_to_each(list_of_terms, num):
             print(total)
             if (total) == 2020:
                 print("equal")
-                print("yeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeet")
                 newlist = []
                 newlist.append(list_of_terms[num])
                 newlist.append(l)
