@@ -35,7 +35,6 @@ def find_trees_and_opens(list_of_chars):
 
 def three_right_one_down(list_of_trees_opens):
     newlist = []
-    j = 0
     k = 0
     for i in list_of_trees_opens:
         try:
